@@ -90,6 +90,17 @@ BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6895
+TARGET_KERNEL_CLANG_VERSION := r416183b
+TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
+TARGET_KERNEL_CONFIG := \
+	gki_defconfig \
+	vendor/xiaomi_mt6895.config \
+	vendor/$(PRODUCT_DEVICE).config
+
+TARGET_KERNEL_DTB := \
+    vendor/mediatek/mt6895.dtb
+
+BOARD_KERNEL_IMAGE_NAME := Image.gz
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false

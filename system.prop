@@ -52,3 +52,10 @@ wifi.tethering.interface=ap0
 # RIL
 vendor.rild.libargs=-d /dev/ttyC0
 vendor.rild.libpath=mtk-ril.so
+
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# HWUI
+debug.hwui.skia_atrace_enabled=false
