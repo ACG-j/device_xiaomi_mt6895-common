@@ -15,7 +15,6 @@ AB_OTA_UPDATER := true
 
 AB_OTA_PARTITIONS += \
     boot \
-    dtbo \
     odm \
     odm_dlkm \
     product \
@@ -70,7 +69,6 @@ TARGET_FORCE_PREBUILT_KERNEL := true
 BOARD_BOOT_HEADER_VERSION := 4
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz
-BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_RAMDISK_USE_LZ4 := true
 
 BOARD_KERNEL_BASE := 0x3fff8000
