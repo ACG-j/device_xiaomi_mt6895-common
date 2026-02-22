@@ -21,3 +21,5 @@ allow hal_fingerprint_default vendor_fingerprint_data_file_fpdump:dir create_dir
 allow hal_fingerprint_default vendor_fingerprint_data_file_fpdump:file create_file_perms;
 
 hal_client_domain(hal_fingerprint_default, hal_power)
+
+neverallow hal_fingerprint_default debugfs_fb:file *;
