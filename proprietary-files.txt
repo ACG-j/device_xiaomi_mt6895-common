@@ -28,7 +28,6 @@ vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libfvaudio.so
 vendor/lib64/libladder.so
 vendor/lib64/libmiresample.so
-vendor/lib64/libmispowerop.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtkshifter_vendor.so
@@ -43,8 +42,6 @@ vendor/lib64/libvow_ap_test_dd.so
 vendor/lib64/libvow_ap_test_ha.so
 vendor/lib64/libvow_ap_test_hh.so
 vendor/lib64/libvow_ap_test_nn.so
-vendor/lib64/libxlog.so
-vendor/lib64/vendor.mediatek.hardware.audio@8.1.so
 
 # Audio Configs
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
@@ -185,7 +182,6 @@ vendor/lib64/hw/hwcomposer.mtk_common.so
 vendor/lib64/hw/mt6895/android.hardware.graphics.allocator@4.0-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/mt6895/android.hardware.graphics.mapper@4.0-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/mt6895/gralloc.common.so;SYMLINK=vendor/lib64/hw/gralloc.common.so
-vendor/lib64/hw/mt6895/vendor.mediatek.hardware.pq@2.15-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib64/hw/mt6895/vulkan.mali.so;SYMLINK=vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
@@ -226,8 +222,6 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.10.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.11.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.12.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.13.so
-vendor/lib64/vendor.mediatek.hardware.pq@2.14.so
-vendor/lib64/vendor.mediatek.hardware.pq@2.15.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.2.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.4.so
@@ -253,7 +247,6 @@ vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CMCC.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CU.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Colombia.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml
@@ -282,31 +275,6 @@ vendor/lib64/mt6895/libmnl.so;SYMLINK=vendor/lib64/libmnl.so
 
 
 # IMS
-system_ext/bin/vtservice
-system_ext/etc/init/init.vtservice.rc
-system_ext/framework/mediatek-common.jar:framework/mediatek-common.jar
-system_ext/framework/mediatek-framework.jar:framework/mediatek-framework.jar
-system_ext/framework/mediatek-ims-base.jar:framework/mediatek-ims-base.jar
-system_ext/framework/mediatek-ims-common.jar:framework/mediatek-ims-common.jar
-system_ext/framework/mediatek-ims-extension-plugin.jar:framework/mediatek-ims-extension-plugin.jar
-system_ext/framework/mediatek-telecom-common.jar:framework/mediatek-telecom-common.jar
-system_ext/framework/mediatek-telephony-base.jar:framework/mediatek-telephony-base.jar
-system_ext/framework/mediatek-telephony-common.jar:framework/mediatek-telephony-common.jar
-system_ext/lib64/libcomutils.so
-system_ext/lib64/libimsma.so
-system_ext/lib64/libimsma_adapt.so
-system_ext/lib64/libimsma_rtp.so
-system_ext/lib64/libimsma_socketwrapper.so
-system_ext/lib64/libmtk_vt_service.so
-system_ext/lib64/libmtk_vt_wrapper.so
-system_ext/lib64/libsignal.so
-system_ext/lib64/libsink.so
-system_ext/lib64/libsource.so
-system_ext/lib64/libvcodec_cap.so
-system_ext/lib64/libvcodec_capenc.so
-system_ext/lib64/libvt_avsync.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/bin/hw/vtservice_hidl
 vendor/etc/init/init.vtservice_hidl.rc
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
@@ -319,14 +287,10 @@ vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml
 vendor/lib64/libcodec2_mtk_c2store.so
 vendor/lib64/libcodec2_mtk_vdec.so
 vendor/lib64/libcodec2_mtk_venc.so
-vendor/lib64/libcodec2_vpp_dolby_plugin.so
 vendor/lib64/libcodec2_vpp_dump_mtk_yuv_plugin.so
-vendor/lib64/libcodec2_vpp_gc_plugin.so
 vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
-vendor/lib64/libdolbyeglplugin.so
 vendor/lib64/libdolbyottcameracontrol.so
-vendor/lib64/libdolbyplugin.so
 vendor/lib64/libformatter.so
 vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so
 vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so
