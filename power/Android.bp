@@ -1,6 +1,7 @@
 cc_library_static {
     name: "libperfmgr-ext-xiaomi",
     vendor: true,
+    owner: "xiaomi",
     srcs: [
         "power-mode.cpp",
     ],
