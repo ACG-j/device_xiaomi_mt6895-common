@@ -15,7 +15,6 @@ AB_OTA_UPDATER := true
 
 AB_OTA_PARTITIONS += \
     boot \
-    dtbo \
     odm \
     odm_dlkm \
     product \
@@ -68,7 +67,6 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
-BOARD_KERNEL_SEPARATED_DTBO := true
 
 BOARD_BOOT_HEADER_VERSION := 4
 BOARD_KERNEL_PAGESIZE := 4096
