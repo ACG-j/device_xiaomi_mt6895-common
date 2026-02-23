@@ -397,3 +397,5 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/mt6895-common/mt6895-common-vendor.mk)
+
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true

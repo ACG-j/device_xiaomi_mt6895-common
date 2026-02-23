@@ -249,6 +249,15 @@
         </interface>
         <fqname>@1.1::IOffloadControl/default</fqname>
     </hal>
+    <hal format="aidl">
+        <name>android.hardware.power</name>
+        <version>3</version>
+        <interface>
+            <name>IPower</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>IPower/default</fqname>
+    </hal>
     <hal format="hidl">
         <name>android.hardware.thermal</name>
         <transport>hwbinder</transport>
